@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus {
+  outline: none;
+}
+
+.sidebar_active {
+  background-color: #ddf2fd;
+  color: #164863;
+}
+
+input:disabled,
+textarea:disabled {
+  cursor: not-allowed;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
